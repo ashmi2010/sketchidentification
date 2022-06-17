@@ -1,0 +1,52 @@
+body {
+    background-color: burlywood;
+}
+
+#show_sketch {
+    float: right;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkmagenta;
+    background-color: bisque;
+    border-style: double;
+}
+
+#label,
+#confidence {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#clear_canvas {
+    background-color: rebeccapurple;
+    color: cornsilk;
+    border-style: dashed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 38px rgb(40, 5, 43);
+    }
+
+    to {
+        box-shadow: 1px 1px 38px rgb(232, 9, 232);
+    }
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
